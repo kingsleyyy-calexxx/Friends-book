@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend's Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+        <h1 id="TitleName">Friends Book</h1>
+    <form action="" id="yourName">
+        <label for="Name">Your Name:</label>
+        <input type="text" id="textBox">
+        <label for="Msg for frnd" id="field1"><br>1. A message for me!(word limit 150)<br></label>        <!-- <input type="text" id="textBox1" maxlength="100"> -->        <textarea name="input" id="textBox1" cols="30" rows="10" maxlength="150"></textarea>
+        <label for="Nick"><br>2. A Nickname for me<br></label>
+        <!-- <textarea name="input" id="textBox1" cols="30" rows="10" maxlength="150"></textarea> -->
+        <input type="text" id="textBox2">
+        <label for="Q1"><br>3. Have you ever lied to me?<br></label>
+        <!-- <select name="Ans" id="yesMayBe"> -->
+        <ul id="yesMayBe">
+            <li>
+                <input type="radio" name="answer" id="yes">
+                <label for="Yes" id="yes">Yes</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="maybe">
+                <label for="May Be" id="mayBe">May Be</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="no">
+                <label for="No" id="no">No</label>
+            </li>
+        </ul>
+        <label for="Q2"><br>4. How do you feel when you talk to me?<br></label>
+        <ul id="happySad">
+            <li>
+                <input type="radio" name="answer1" id="yes">
+                <label for="Yes" id="yes">Happy</label>
+            </li>
+            <li>
+                <input type="radio" name="answer1" id="maybe">
+                <label for="May Be" id="mayBe">Irritated</label>
+            </li>
+            <li>
+                <input type="radio" name="answer1" id="no">
+                <label for="No" id="no">Sad</label>
+            </li>
+        </ul>
+        <label for="Q3"><br>5. Do you like to go on a roadtrip with me?<br></label>
+        <ul id="yesNo">
+            <li>
+                <input type="radio" name="answer2" id="yes">
+                <label for="Yes" id="yes">Yes</label>
+            </li>
+            <li>
+                <input type="radio" name="answer2" id="no">
+                <label for="No" id="no">No</label>
+            </li>
+        </ul>
+        <label for="Q4"><br>6. Which color best suits me?<br></label>
+        <ul id="bestColour">
+            <li>
+                <input type="checkbox" name="answer2" id="c1">
+                <label for="c1" id="c1">Red</label>
+            </li>
+            <li>
+                <input type="checkbox" name="answer2" id="c2">
+                <label for="c2" id="c2">White</label>
+            </li>
+            <li>
+                <input type="checkbox" name="answer2" id="c3">
+                <label for="c3" id="c3">Blue</label>
+            </li>
+            <li>
+                <input type="checkbox" name="answer2" id="c4">
+                <label for="c4" id="c4">Black</label>
+            </li>
+            <li>
+                <input type="checkbox" name="answer2" id="c5">
+                <label for="c5" id="c5">Yellow</label>
+            </li>
+            <li>
+                <input type="checkbox" name="answer2" id="c6">
+                <label for="c6" id="c6">Green</label>
+            </li>
+        </ul>
+        <label for="bestMoment"><br>7. The best moment in our friendship<br></label>
+        <input type="text" id="textBox3">
+        <!-- </select> -->
+        <div id="sub">
+            <button type="submit" form="form1" value="Submit" id="button">Submit</button>
+        </div>
+    </form>
+    <!-- </div> -->
+</body>
+</html>
